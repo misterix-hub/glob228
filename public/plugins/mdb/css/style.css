@@ -1,0 +1,83 @@
+.menu-bar {
+    padding: 4px 10px;
+    border-bottom: 2px solid #CCC;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 3;
+}
+
+div.logo {
+    font-family: Dosis;
+    font-size: 32px;
+}
+
+.search-cover {
+    border: 2px solid #CCC;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.search-cover form input {
+    width: 100%;
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+}
+
+.search-cover form button {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 7px 0;
+    border-radius: 0 2px 2px 0;
+}
+
+.font-size-14 {
+    font-size: 14px !important;
+}
+
+.font-size-13 {
+    font-size: 13px !important;
+}
+
+.article-carousel-price {
+    color: #da1212;
+    font-family: Dosis;
+    margin-top: 175px;
+    text-shadow: 0 0 5px #000;
+    font-size: 46px;
+}
+
+.article-carousel-title {
+    font-family: Dosis;
+}
+
+.article-carousel-text {
+    font-family: Dosis;
+}
+
+.article-item-price {
+    font-family: Dosis;
+}
+
+@font-face {
+    src: url(../../fonts/Dosis/Dosis-VariableFont:wght.ttf);
+    font-family: Dosis;
+}
+
+@font-face {
+    src: url(../../fonts/Gayathri/Gayathri-Bold.ttf);
+    font-family: Gayathri;
+}
+
+@font-face {
+    src: url(../../fonts/Jura/Jura-VariableFont:wght.ttf);
+    font-family: Jura;
+}
+
+@font-face {
+    src: url(../../fonts/Marmelad/Marmelad-Regular.ttf);
+    font-family: Marmelad;
+}
